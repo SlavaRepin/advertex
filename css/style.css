@@ -1544,6 +1544,10 @@ body._lock {
   padding-bottom: 100px;
 }
 
+.top-developing:not(:last-child) {
+  margin-bottom: 70px;
+}
+
 .page__about {
   position: relative;
   padding-top: 100px;
@@ -2609,6 +2613,12 @@ body._lock {
   .page__developing {
     padding-bottom: calc(
 				50px + 50 * ((100vw - 320px) / (1400 - 320))
+			);
+  }
+
+  .top-developing:not(:last-child) {
+    margin-bottom: calc(
+				30px + 40 * ((100vw - 320px) / (1400 - 320))
 			);
   }
 
